@@ -1,0 +1,29 @@
+package p367_3;
+
+import java.util.ArrayList;
+
+import javax.net.ssl.ManagerFactoryParameters;
+
+public class PrinterManager {
+	public int counter;
+	private ArrayList<Printer> managedPrinters=new ArrayList<Printer>();
+
+	public PrinterManager(int counter) {
+		this.counter = counter;
+	}
+	
+	public synchronized Printer getPrinter() {
+		while(true) {
+			for(Printer printer:managedPrinters=new ArrayList<Printer>()) {
+				
+				if(printer) {
+
+				}		
+				return printer;
+				
+			}
+		}
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;mapinter&apos; to &apos;Practice_20190806/src&apos;&#x0D;&#x0A;- Original project: &apos;p129&apos;&#x0D;&#x0A;- Destination element: &apos;Practice_20190806/src&apos;&#x0D;&#x0A;- Original element: &apos;p129/src/mapinter&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Practice_20190806/src" element1="/src&lt;mapinter" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1565137488555" version="1.0"/>
+</session>

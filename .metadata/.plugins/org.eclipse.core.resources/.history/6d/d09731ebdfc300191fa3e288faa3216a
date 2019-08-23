@@ -1,0 +1,14 @@
+package p367_3;
+
+public class UserThread extends Thread {
+
+	public UserThread(String name) {
+		super(name);
+	}
+
+	public void run() {  
+		PrinterManager mgr=PrinterManager.getPrinterManager();
+				
+	}
+
+}

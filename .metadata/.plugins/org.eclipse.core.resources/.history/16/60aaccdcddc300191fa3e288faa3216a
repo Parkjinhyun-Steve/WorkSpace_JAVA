@@ -1,0 +1,18 @@
+package p367_3;
+
+public class Printer {
+
+	private static Printer printer=null;  // 프린터 객체 선언
+	
+	public void print(String str) {
+		data.counter++;
+		System.out.println(str+data.counter);
+		
+	}
+
+	public boolean isAvailable() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

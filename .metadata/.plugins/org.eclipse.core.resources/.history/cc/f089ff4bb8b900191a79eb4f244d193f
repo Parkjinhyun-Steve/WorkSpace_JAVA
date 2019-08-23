@@ -1,0 +1,17 @@
+package p353;
+
+public class SyncTest {
+
+	public static void main(String[] args) {
+		
+		public synchronized void increment() {
+			Integer counter = map.get("COUNTER");
+			counter ++;
+			map.put("COUNTER", count
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+}
+	

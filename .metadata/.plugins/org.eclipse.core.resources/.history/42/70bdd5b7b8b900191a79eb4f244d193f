@@ -1,0 +1,29 @@
+package p353;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class SyncTest {
+
+	private Map<String, Integer> map = new HashMa\p<>();
+	
+	public synchronized void increment() {
+		Integer counter = map.get("COUNTER");
+		counter ++;
+		map.put("COUNTER", counter);					
+	}
+
+	public static void main(String[] args) {
+		
+		thread thread=new Thread(new Runnable() {
+			public vouid run() {
+				int i=0;
+				increment();
+			}
+			
+		});
+
+	}
+
+}
+	

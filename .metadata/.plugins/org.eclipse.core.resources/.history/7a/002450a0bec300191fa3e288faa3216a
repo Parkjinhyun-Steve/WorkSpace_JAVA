@@ -1,0 +1,12 @@
+package p323;
+
+public class DefaultBar implements Bar {
+	DefaultBar 
+
+	@Override
+	public String say() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

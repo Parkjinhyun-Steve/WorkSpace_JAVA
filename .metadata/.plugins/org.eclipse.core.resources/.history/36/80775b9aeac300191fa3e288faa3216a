@@ -1,0 +1,14 @@
+package p377_1;
+
+public class Button {
+	private Command command;
+	
+	public Button(Command NewCommand) {
+		=NewCommand;
+	}
+	
+	public void pressed() {
+		lamp.turnOn();
+	}
+
+}

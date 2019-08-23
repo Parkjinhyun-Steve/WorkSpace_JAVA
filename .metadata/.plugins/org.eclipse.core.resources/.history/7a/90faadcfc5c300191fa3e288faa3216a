@@ -1,0 +1,10 @@
+package type3.api;
+
+public interface FooFactory {
+	
+	
+	
+	
+	
+
+}

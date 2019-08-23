@@ -1,0 +1,15 @@
+package p377_1;
+
+public class LampOffCommand implements Command {
+
+	public LampOffCommand(Lamp lamp) {
+		this.lamp=lamp;
+	}
+
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

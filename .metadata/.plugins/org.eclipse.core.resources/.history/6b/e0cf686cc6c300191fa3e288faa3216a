@@ -1,0 +1,21 @@
+package type3.api;
+
+public class DefaultFoo implements Foo {
+	
+	public static Foo newInstance(String message);
+		return
+	
+	
+	private String message;
+	
+	public DefaultFoo(String message) {
+		this.message=message;
+	}
+
+	@Override
+	public String say() {
+		// TODO Auto-generated method stub
+		return this.message;
+	}
+
+}

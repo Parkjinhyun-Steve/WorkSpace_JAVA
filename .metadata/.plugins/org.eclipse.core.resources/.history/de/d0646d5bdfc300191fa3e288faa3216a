@@ -1,0 +1,38 @@
+package p367_3;
+
+import java.util.ArrayList;
+
+import javax.net.ssl.ManagerFactoryParameters;
+
+public class PrinterManager {
+
+	private ArrayList<Printer> managedPrinters=new ArrayList<Printer>();
+
+	public PrinterManager(int counter) {
+		managedPrinters.add(new Printer());  //  익명
+		managedPrinters.add(new Printer());  //  익명
+		managedPrinters.add(new Printer());  //  익명
+		
+	}
+	
+	public static PrinterManager getPrinterManager() {
+		// TODO Auto-generated method stub
+		return null;
+		
+	}	
+	
+	public synchronized Printer getPrinter() {
+		while(true) {
+			for(Printer printer:managedPrinters) {
+				if(printer.isAvailable()) {
+					printer.setAvailable(false);
+					return printer;
+				}		
+				
+				
+			}
+		}
+		
+	}
+	
+}

@@ -1,0 +1,19 @@
+package p300;
+
+public class CallbyReferecesSample {
+
+	public static void main(String[] args) {
+		EntityTest entity = new EntityTest();		
+		entity.value=1;
+		callByReference(extity);
+		System.out.println("main : "+value);
+
+	}
+
+	public static void callByValue(int value) {
+		value++;
+		System.out.println("callByValue : "+value);
+		
+	}
+
+}

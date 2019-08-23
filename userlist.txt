@@ -1,0 +1,4 @@
+Java haeun 10,000
+Java shion 11,000
+C# hanbit 20,000
+Python hanbit 30,000

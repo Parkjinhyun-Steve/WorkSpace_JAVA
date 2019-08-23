@@ -1,0 +1,10 @@
+package p377;
+
+public class Lamp {
+
+	public void turnOn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

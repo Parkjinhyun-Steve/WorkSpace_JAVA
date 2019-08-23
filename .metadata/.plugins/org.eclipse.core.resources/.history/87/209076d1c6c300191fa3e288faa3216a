@@ -1,0 +1,12 @@
+package type3.client;
+
+public class FoolFactory {
+
+	public static Foo newvoid main(String[] args) {
+		Foo foo = new DefaultFoo.newInstance("Hello foo!");
+		
+		System.out.println(foo.say());
+
+	}
+
+}

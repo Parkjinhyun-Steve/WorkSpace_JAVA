@@ -1,0 +1,13 @@
+package type3.client;
+
+
+public class Apiclient {
+
+	public static void main(String[] args) {
+		Foo foo = FoolFactory.newInstance("Hello Foo!");
+				
+		System.out.println(foo.say());
+
+	}
+
+}

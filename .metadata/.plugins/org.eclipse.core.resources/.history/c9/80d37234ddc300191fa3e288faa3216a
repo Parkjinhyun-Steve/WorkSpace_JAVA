@@ -1,0 +1,23 @@
+package p367_3;
+
+public class PrinterManager {
+	public int counter;
+
+	public PrinterManager(int counter) {
+		this.counter = counter;
+	}
+	
+	public synchronized Printer getPrinter() {
+		while(true) {
+			for() {
+				if(printer) {
+
+				}		
+				return printer;
+				
+			}
+		}
+		
+	}
+
+}

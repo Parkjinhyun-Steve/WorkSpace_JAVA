@@ -1,0 +1,27 @@
+package p367_3;
+
+import java.util.Random;
+
+public class Printer {
+
+	private boolean available=true;
+
+	public void print(String str) {
+		
+		try {
+			Thread.sleep(new Random().nextInt(100));
+			System.out.println(str);
+			
+		}
+		
+		
+		
+		
+	}
+
+	public boolean isAvailable() {
+		// TODO Auto-generated method stub
+		return available;
+	}
+
+}

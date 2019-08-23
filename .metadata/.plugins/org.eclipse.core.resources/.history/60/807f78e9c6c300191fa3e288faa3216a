@@ -1,0 +1,14 @@
+package type3.client;
+
+
+
+public class Apiclient {
+
+	public static void main(String[] args) {
+		Foo foo = Foo.newInstance("Hello foo!");
+				
+		System.out.println(foo.say());
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package p301.copy;
+
+public class CallbyReferencesSample {
+
+	public static void main(String[] args) {
+		int value=1;
+		callByValue(value);
+		System.out.println("main : "+value);
+
+	}
+
+	public static void callByValue(int value) {
+		entity.value++;
+		System.out.println("callByValue : "+value);
+		
+	}
+
+}

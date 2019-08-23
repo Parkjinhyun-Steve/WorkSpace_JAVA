@@ -1,0 +1,5 @@
+package p377_1;
+
+public class LampOnCommand implements Command {
+
+}

@@ -1,0 +1,14 @@
+package p367_1;
+
+public class User {
+
+	public User(String name) {
+		this.name=name;
+	}
+
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

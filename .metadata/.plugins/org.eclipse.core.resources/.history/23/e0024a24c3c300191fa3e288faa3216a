@@ -1,0 +1,10 @@
+package type1.client;
+
+public class Apiclient {
+
+	public static void main(String[] args) {
+		Foo foo = new DefaultFoo("");		
+
+	}
+
+}

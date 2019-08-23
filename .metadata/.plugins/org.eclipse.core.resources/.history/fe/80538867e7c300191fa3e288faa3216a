@@ -1,0 +1,21 @@
+package p377;
+
+public class Client {
+
+	public static void main(String[] args) {
+		Lamp lamp=new Lamp();
+		//온 명령어
+		
+		//오프 명령어
+		
+		//온 명령어 객체 생성
+		
+		//오프 명령어 객체 생성
+		
+		
+		Button lampButton=new Button(lamp);
+		lampButton.pressed();
+
+	}
+
+}

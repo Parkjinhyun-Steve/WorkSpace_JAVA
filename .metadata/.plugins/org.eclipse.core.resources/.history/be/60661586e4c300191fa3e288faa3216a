@@ -1,0 +1,10 @@
+package p364;
+
+public class Director {
+
+	public Page construct() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

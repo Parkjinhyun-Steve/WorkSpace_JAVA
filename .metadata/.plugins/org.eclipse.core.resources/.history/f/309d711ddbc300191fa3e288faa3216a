@@ -1,0 +1,23 @@
+package p367_2;
+
+public class Printer {
+
+	private static Printer printer=null;  // 프린터 객체 선언
+
+	public static Printer getPrinter() {
+		if(printer==null) {
+			try {
+				
+			}catch(InterruptedException e) {}
+			
+			printer=new Printer();
+		}		
+		return printer;
+	}
+
+	public void print(String str) {
+		System.out.println(str);
+		
+	}
+
+}

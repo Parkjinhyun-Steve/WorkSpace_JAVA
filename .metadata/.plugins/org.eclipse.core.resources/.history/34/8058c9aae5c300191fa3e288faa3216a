@@ -1,0 +1,9 @@
+package p377;
+
+public class Button {
+
+	public Button(Lamp lamp) {
+		this.lamp=lamp;
+	}
+
+}
