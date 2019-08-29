@@ -1,9 +1,0 @@
-package p377;
-
-public class Button {
-
-	public Button(Lamp lamp) {
-		// TODO Auto-generated constructor stub
-	}
-
-}

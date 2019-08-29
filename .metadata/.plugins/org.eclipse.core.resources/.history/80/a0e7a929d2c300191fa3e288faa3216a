@@ -1,9 +1,0 @@
-package type3.api;
-
-public class FooFactory implements Foo {
-	
-	public static Foo newInstance(String message) {
-	return new DefaultFoo(message);
-	
-	}
-}
